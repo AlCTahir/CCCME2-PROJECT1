@@ -1,7 +1,13 @@
+
 from tkinter import*
 
 calcu = Tk()
 
 
-calcu.mainloop()
+calcu.title("Calculator") 
+calcu. geometry("280x360")  ## sample only
 
+clacu.resizable(0,0)
+
+backg=Frame(calcu, bg="white") 
+backg.pack()
