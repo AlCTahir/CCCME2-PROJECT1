@@ -34,7 +34,7 @@ def equal():
     ans=eval(ans)
     widg.delete(0,END)
     widg.insert(0,ans) 
-    pass
+def    
   
   
 calcu.mainloop()
