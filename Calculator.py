@@ -1,7 +1,7 @@
 from tkinter import*
 
 calcu = Tk()
-calcu.title("Calculator")
+
 
 calcu.resizable(0,0)
 
@@ -46,5 +46,6 @@ button7 = Button(backg,font= ("arial",15),text=' 7 ',bd=1,relief="sunken",fg='bl
 button8 = Button(backg,font= ("arial",15),text=' 8 ',bd=1,relief="sunken",fg='black', bg='white',command=lambda: Click("8"), height=3, width=8)
 button9 = Button(backg,font= ("arial",15),text=' 9 ',bd=1,relief="sunken",fg='black', bg='white',command=lambda: Click("9"), height=3, width=8)
 button0 = Button(backg,font= ("arial",15),text=' 0 ',bd=1,relief="sunken",fg='black', bg='white',command=lambda: Click("0"), height=3, width=8)
+
 calcu.mainloop()
 
