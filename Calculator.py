@@ -46,5 +46,16 @@ button7 = Button(backg,font= ("arial",15),text=' 7 ',bd=1,relief="sunken",fg='bl
 button8 = Button(backg,font= ("arial",15),text=' 8 ',bd=1,relief="sunken",fg='black', bg='white',command=lambda: Click("8"), height=3, width=8)
 button9 = Button(backg,font= ("arial",15),text=' 9 ',bd=1,relief="sunken",fg='black', bg='white',command=lambda: Click("9"), height=3, width=8)
 button0 = Button(backg,font= ("arial",15),text=' 0 ',bd=1,relief="sunken",fg='black', bg='white',command=lambda: Click("0"), height=3, width=8)
+buttonadd = Button(backg,font= ("arial",15),text=' + ',bd=1,relief="sunken",fg='black', bg='#ffaa00',command=lambda: Click("+"), height=3, width=8)
+buttonsub = Button(backg,font= ("arial",15),text=' - ',bd=1,relief="sunken",fg='black', bg='#ffaa00',command=lambda: Click("-"), height=3, width=8)
+buttonmulti = Button(backg,font= ("arial",15),text=' x ',bd=1,relief="sunken",fg='black', bg='#ffaa00',command=lambda: Click("*"), height=3, width=8)
+buttondiv = Button(backg,font= ("arial",15),text=' ÷ ',bd=1,relief="sunken",fg='black', bg='#ffaa00',command=lambda: Click("/"), height=3, width=8)
+buttondec = Button(backg,font= ("arial",15),text=' . ',bd=1,relief="sunken",fg='black', bg='white',command=lambda: Click("."), height=3, width=8)
+buttonclear = Button(backg,font= ("arial",15),text=' C ',bd=1,relief="sunken",fg='black', bg='white',command=Clear, height=3, width=8)
+buttonequal = Button(backg,font= ("arial",15),text=' =',bd=1,relief="sunken",fg='black', bg='#ffaa00',command=equal, height=3, width=8)
+buttondel = Button(backg,font= ("arial",15),text='DEL',bd=1,relief="sunken",fg='black', bg='white',command=delete, height=3, width=8)
+
+
+
 calcu.mainloop()
 
