@@ -4,12 +4,12 @@ calcu = Tk()
 
 
 calcu.title("Calculator") 
-calcu. geometry("280x360")  ## sample only
 
-clacu.resizable(0,0)
+
+calcu.resizable(0,0)
 
 backg=Frame(calcu, bg="white") 
 backg.pack() 
 
-calcu.mainloop()
 
+calcu.mainloop()
