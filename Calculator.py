@@ -97,7 +97,6 @@ button2.grid(row=4, column=1)
 button3.grid(row=4, column=2)
 buttonadd.grid(row=4, column=3)
 
-
 button0.grid(row=5, column=0)
 buttondec.grid(row=5, column=1)
 
