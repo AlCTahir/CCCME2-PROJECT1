@@ -3,12 +3,7 @@ from tkinter import*
 import math as math
 
 calcu = Tk()
-calcu.title("Calculator")
 
-calcu.resizable(0,0)
-
-backg=Frame(calcu,bg="white")
-backg.pack()
 
 equation=  StringVar()
 widg=Entry(backg,textvariable=equation,justify=RIGHT,font=("arial",20,"bold"),bg="black",fg="white")
@@ -52,6 +47,7 @@ def sc(scical):
     widg.delete(0, END)
     widg.insert(0,result)
 
+## buttons for calculator
 button1 = Button(backg,font= ("arial",15),text=' 1 ',bd=1,relief='ridge',fg='black', bg='white',command=lambda: Click("1"), height=3, width=8)
 button2 = Button(backg,font= ("arial",15),text=' 2 ',bd=1,relief='ridge',fg='black', bg='white',command=lambda: Click("2"), height=3, width=8)
 button3 = Button(backg,font= ("arial",15),text=' 3 ',bd=1,relief='ridge',fg='black', bg='white',command=lambda: Click("3"), height=3, width=8)
