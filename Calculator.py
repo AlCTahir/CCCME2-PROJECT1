@@ -68,7 +68,7 @@ buttonmulti = Button(backg,font= ("arial",15),text=' x ',bd=1,relief='ridge',fg=
 buttondiv = Button(backg,font= ("arial",15),text=' ÷ ',bd=1,relief='ridge',fg='black', bg='#ffaa00',command=lambda: Click("/"), height=3, width=8)
 buttondec = Button(backg,font= ("arial",15),text=' . ',bd=1,relief='ridge',fg='black', bg='white',command=lambda: Click("."), height=3, width=8)
 buttonclear = Button(backg,font= ("arial",15),text=' C ',bd=1,relief='ridge',fg='black', bg='white',command=Clear, height=3, width=8)
-buttonequal = Button(backg,font= ("arial",15),text=' =',bd=1,relief='ridge',fg='black', bg='#ffaa00',command=evaluate, height=3, width=8)
+buttonequal = Button(backg,font= ("arial",15),text=' =',bd=1,relief='ridge',fg='black', bg='#ffaa00',command=equal, height=3, width=8)
 buttondel = Button(backg,font= ("arial",15),text='DEL',bd=1,relief='ridge',fg='black', bg='white',command=delete, height=3, width=8)
 
 buttonsqr = Button(backg,font= ("arial",15),text='√',bd=1,relief='ridge',fg='black', bg='white',height=3, width=8)
@@ -103,6 +103,5 @@ buttondec.grid(row=5, column=1)
 buttonpi.grid(row=5, column=2)
 buttonequal.grid(row=5, column=3)
   
-
 
 calcu.mainloop()
