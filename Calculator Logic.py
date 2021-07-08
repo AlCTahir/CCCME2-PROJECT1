@@ -26,11 +26,15 @@ def delete():
     length=len(current)-1
     widg.delete(length,END)
 
+   
 def equal():
     ans=widg.get()
-    ans=eval(ans)
+    try:
+        ans=eval(ans)
+    except Exception:
+        ans = " Syntax Error"
     widg.delete(0,END)
-    widg.insert(0,ans) 
+    widg.insert(0,ans)  
  
 def sc(scical):
     key=scical.widget
