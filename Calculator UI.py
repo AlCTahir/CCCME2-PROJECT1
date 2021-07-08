@@ -3,11 +3,6 @@ from tkinter import*
 calcu = Tk()
 
 
-
-calcu.mainloop()
-
-
-
 calcu.title("Calculator") 
 calcu.resizable(0,0)
 
